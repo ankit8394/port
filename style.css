@@ -19,7 +19,6 @@ header{
 }
 .container-fluid{
     background-color: #002954;
-    height: 100vh;
 }
 #front{
     padding-top: 90px;
@@ -154,7 +153,7 @@ header{
     font-weight: 700;
 }
 #about p{
-    font-size: clamp(10px, 5px + 3.4783vw, 30px);
+    font-size:32px;
 }
 .about-img{
     height: 300px;
@@ -335,4 +334,11 @@ footer h6{
     border: 2px solid #F4598F;
     border-radius: 20px;
     margin-top: 60px;
+}
+
+
+@media screen and (max-width:1060px) {
+   #about p {
+    font-size: clamp(10px, 5px + 3.4783vw, 20px);
+}
 }
