@@ -153,7 +153,7 @@ header{
     font-weight: 700;
 }
 #about p{
-    font-size:32px;
+    font-size:31px;
 }
 .about-img{
     height: 300px;
@@ -339,6 +339,15 @@ footer h6{
 
 @media screen and (max-width:1060px) {
    #about p {
-    font-size: clamp(10px, 5px + 3.4783vw, 20px);
-}
+    font-size: 22px;
+    }
+    .about-img {
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+    }
+    .heading, #contact h2 {
+        text-align: center;
+        padding-top: 15px;
+    }
 }
