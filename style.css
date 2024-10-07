@@ -37,6 +37,7 @@ header{
     color: #F4598F;
 }
 .menu li{
+    transition: 0.5s ease;
     display: inline;
     padding: 0px 20px;
     padding-top: 10px;
@@ -337,7 +338,13 @@ footer h6{
     border-radius: 20px;
     margin-top: 60px;
 }
-
+#port-f{
+    display: flex;
+    justify-content: space-between;
+}
+#mobile{
+    display: none;
+}
 
 @media (max-width:1060px)
 {
@@ -360,14 +367,87 @@ footer h6{
 }
 @media(max-width:768px)
 {
+    .row{
+        margin: 0;
+        padding: 0;
+    }
     .menu li {
         padding: 0px 10px;
         padding-top: 12px;
     }
+    #name h1 {
+        font-size: 50px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+    .menu li a {
+        font-size: 24px;
+    }
     .port {
-        font-size: 40px;
-        font-weight: 600;
-        color: #fff;
         padding: 0px 20px;
     }
+    #main-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .profile-img{
+        width: 250px;
+        height: 280px;
+    }
+    #about p {
+        font-size: 18px;
+    }
+    .about-img{
+        height: 200px;
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+}
+@media (max-width:426px)
+{
+    .port {
+        font-size: 30px;
+        padding-left: 2px;
+        padding-top: 10px;
+    }  
+    #mobile{
+        display:initial;
+        margin: 20px;
+    }
+    .menu {
+        display: none;
+        justify-content: flex-end;
+        height: 100vh;
+    }  
+    .menu li {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0px 20px;
+        padding-top: 10px;
+    }
+    #front{
+        padding-top: 50px;
+       
+    }
+    #main-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+      }
+      #image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .profile-img {
+        width: 210px;
+        height: 230px;
+        margin-top: 80px;
+    }
+      
 }

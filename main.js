@@ -26,3 +26,10 @@ function typeText() {
   }
 }
 typeText();
+
+//navbar
+$(document).ready(function(){
+  $("#mobile").click(function(){
+    $(".menu").toggle(1500);
+  });
+});
