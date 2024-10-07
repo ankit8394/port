@@ -177,6 +177,7 @@ header{
     align-items: center;
     justify-content: space-between;
     margin-top: 40px;
+    flex-wrap: wrap;    
 }
 .div-img{
     display: grid;
@@ -185,6 +186,7 @@ header{
     width: 100px;
     border-radius: 100px;
     background-color: #fff;
+    margin: 5px;
 }
 .div-img img{
     height: 71px;
@@ -337,7 +339,8 @@ footer h6{
 }
 
 
-@media screen and (max-width:1060px) {
+@media (max-width:1060px)
+{
    #about p {
     font-size: 22px;
     }
@@ -349,5 +352,22 @@ footer h6{
     .heading, #contact h2 {
         text-align: center;
         padding-top: 15px;
+    }
+    #image{
+        margin-left: -50px;
+        transform: 0.3s ease;
+    }
+}
+@media(max-width:768px)
+{
+    .menu li {
+        padding: 0px 10px;
+        padding-top: 12px;
+    }
+    .port {
+        font-size: 40px;
+        font-weight: 600;
+        color: #fff;
+        padding: 0px 20px;
     }
 }
