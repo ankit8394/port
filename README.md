@@ -12,25 +12,13 @@ Home
 This is the starting point of my portfolio. You can explore my work, projects, and skills that demonstrate my capabilities and experiences in the field of Web development.
 
 About Me
-I am [Your Name], a [Your Title/Profession] with a passion for [mention your interests or specialties, e.g., creating user-friendly web applications, designing intuitive interfaces, etc.]. With [number] years of experience in [your field or technology], I strive to [mention your goals or what you aim to achieve in your work].
+I am Ankit, a Web Developer with a passion for creating user-friendly web applications, designing intuitive interfaces.
 
 Projects
-Project 1: [Project Title]
-Description: [Brief description of the project and what technologies you used]
-Live Demo: [Link to the live project]
-Source Code: [Link to the GitHub repository or code]
-Project 2: [Project Title]
-Description: [Brief description]
-Live Demo: [Link]
-Source Code: [Link]
-Project 3: [Project Title]
-Description: [Brief description]
-Live Demo: [Link]
-Source Code: [Link]
-(Continue adding projects as necessary)
+Here are some of the projects I have worked on:
 
 Skills
-Languages: [e.g., JavaScript, Python, HTML, CSS]
+Languages: [e.g., JavaScript, Python, HTML, CSS
 Frameworks: [e.g., React, Angular, Django]
 Tools: [e.g., Git, Figma, VSCode]
 Other Skills: [e.g., UI/UX design, SEO, project management]
