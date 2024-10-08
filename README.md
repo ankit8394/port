@@ -18,15 +18,34 @@ Projects
 Here are some of the projects I have worked on:
 
 Skills
-Languages: JavaScript, Python, HTML, CSS
-Frameworks: React JS
-Tools: Git, Figma, VSCode
+Programming Languages
+JavaScript
+HTML5
+CSS3
+PHP
+MySQL
+
+Frameworks & Libraries
+jQuery
+React.js
+Bootstrap
+Redux
+
+Developer Tools
+VS Code
+Sublime Text
+Apache
+Git
+GitHub
+NPM
+Firebase
+
+
 Contact
 Feel free to reach out to me for collaborations, inquiries, or just to connect!
 
-Email: [your-email@example.com]
-LinkedIn: [Your LinkedIn Profile]
-GitHub: [Your GitHub Profile]
-Website: [Link to your website if applicable]
+Email: ankit0839483@gmail.com
+LinkedIn: https://www.linkedin.com/in/ankit-5ab596292/
+GitHub: https://github.com/ankit8394
 Thank you for visiting my portfolio! I hope you enjoy exploring my work.
 
