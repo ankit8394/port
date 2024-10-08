@@ -449,5 +449,14 @@ footer h6{
         height: 230px;
         margin-top: 80px;
     }
+    #name h1 {
+        font-size: 45px;
+        text-align: center;
+        margin-top: -40px;
+    }
+    #name h3 {
+        font-size: 38px;
+        text-align: center;
+    }
       
 }
