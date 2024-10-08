@@ -18,10 +18,9 @@ Projects
 Here are some of the projects I have worked on:
 
 Skills
-Languages: [e.g., JavaScript, Python, HTML, CSS
-Frameworks: [e.g., React, Angular, Django]
-Tools: [e.g., Git, Figma, VSCode]
-Other Skills: [e.g., UI/UX design, SEO, project management]
+Languages: JavaScript, Python, HTML, CSS
+Frameworks: React JS
+Tools: Git, Figma, VSCode
 Contact
 Feel free to reach out to me for collaborations, inquiries, or just to connect!
 
