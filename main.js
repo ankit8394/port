@@ -32,4 +32,7 @@ $(document).ready(function(){
   $("#mobile").click(function(){
     $(".menu").toggle(1500);
   });
+  $(".menu a").click(function() {
+    $(".menu").hide(1000); // Hide the menu when a link is clicked
+});
 });
