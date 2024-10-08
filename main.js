@@ -33,6 +33,9 @@ $(document).ready(function(){
     $(".menu").toggle(1500);
   });
   $(".menu a").click(function() {
-    $(".menu").hide(1000); // Hide the menu when a link is clicked
+    // Check the screen width
+    if ($(window).width() <= 426) {
+        $(".menu").hide(1000); // Hide the menu when a link is clicked on small screens
+    }
 });
 });

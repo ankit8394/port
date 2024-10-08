@@ -344,6 +344,12 @@ footer h6{
 #mobile{
     display: none;
 }
+#cont-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media (max-width:1060px)
 {
@@ -362,6 +368,10 @@ footer h6{
     #image{
         margin-left: -50px;
         transform: 0.3s ease;
+    }
+    footer h6 {
+        padding-top: 90px;
+        padding-bottom: 20px;
     }
 }
 @media(max-width:768px)
@@ -413,7 +423,8 @@ footer h6{
         text-align: center;
     }
     footer h6 {
-        padding: 20px 0px;
+        padding-top: 60px;
+        padding-bottom: 20px;
     }
 }
 @media (max-width:426px)
@@ -530,12 +541,27 @@ footer h6{
     .project-layer{
         padding: 30px 5px;
     }
-
+    #contact input, .msg {
+        margin: 5px 0px;
+    }
 
 }
 @media (max-width:321px) {
     #skills-img {
         justify-content: space-evenly;
         margin-top: 40px;
+    }
+}
+@media (max-width:2561px) {
+    #about-box1{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .about-img {
+        margin: 0;
+    }
+    #about-box1, #about-box2{
+        padding-bottom: 60px;
     }
 }
