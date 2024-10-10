@@ -30,7 +30,7 @@ typeText();
 //navbar
 $(document).ready(function(){
   $("#mobile").click(function(){
-    $(".menu").toggle(1500);
+    $(".menu").toggle(1000);
   });
   $(".menu a").click(function() {
     // Check the screen width

@@ -158,8 +158,11 @@ header{
 .about-img{
     height: 300px;
     width: 400px;
-    margin-top: 100px;
+    object-fit: cover;
 }
+
+
+
 /*skills*/
 #skills{
     padding-top: 120px;
@@ -356,7 +359,7 @@ footer h6{
    #about p {
     font-size: 22px;
     }
-    .about-img {
+    .about-box1 {
         height: 300px;
         width: 300px;
         margin-top: 10px;
@@ -402,6 +405,7 @@ footer h6{
     .profile-img{
         width: 250px;
         height: 280px;
+        object-fit: cover;
     }
     #about p {
         font-size: 18px;
@@ -409,7 +413,6 @@ footer h6{
     .about-img{
         height: 200px;
         width: 200px;
-        margin-top: 50px;
         margin-left: 30px;
     }
     #contact {
@@ -459,7 +462,7 @@ footer h6{
         align-items: center;
         flex-direction: column-reverse;
       }
-      #image {
+    #image {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -518,15 +521,16 @@ footer h6{
         padding-top: 90px;
         color: #fff;
     }
-    .about-img {
-        margin-top: 0px;
-        margin-left: 0px;
-        padding-bottom: 10px;
+    #about p {
+        margin-top: -10px;
+        font-size: 16px;
     }
-    #about-box1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .about-img{
+        margin: 0;
+        padding-top: 30px;
+    }
+    #about-box1 {
+       height: 210px;
     }
     #skills {
         padding-top: 90px;
@@ -557,11 +561,10 @@ footer h6{
        display: flex;
        justify-content: center;
        align-items: center;
+       margin: 0;
+       padding-bottom: 60px;
     }
-    .about-img {
-        margin: 0;
-    }
-    #about-box1, #about-box2{
+     #about-box2{
         padding-bottom: 60px;
     }
 }
