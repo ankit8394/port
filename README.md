@@ -44,8 +44,8 @@ Firebase
 Contact<br>
 Feel free to reach out to me for collaborations, inquiries, or just to connect!
 
-Email: ankit0839483@gmail.com
-LinkedIn: https://www.linkedin.com/in/ankit-5ab596292/
-GitHub: https://github.com/ankit8394
-Thank you for visiting my portfolio! I hope you enjoy exploring my work.
+Email: ankit0839483@gmail.com<br>
+LinkedIn: https://www.linkedin.com/in/ankit-5ab596292/<br>
+GitHub: https://github.com/ankit8394<br>
+Thank you for visiting my portfolio! I hope you enjoy exploring my work.<br>
 
