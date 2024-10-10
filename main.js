@@ -28,14 +28,28 @@ function typeText() {
 typeText();
 
 //navbar
-$(document).ready(function(){
-  $("#mobile").click(function(){
-    $(".menu").toggle(1000);
+$(document).ready(function() {
+  // Toggle menu and change icon when the menu button is clicked
+  $("#mobile").click(function() {
+      $(".menu").toggle(1000); // Toggle menu visibility
+
+      // Toggle icon between 'fa-bars' and 'fa-x'
+      let icon = $("#menu-icon");
+      if (icon.hasClass("fa-bars")) {
+          icon.removeClass("fa-bars").addClass("fa-x");
+      } else {
+          icon.removeClass("fa-x").addClass("fa-bars");
+      }
   });
+
+  // Hide menu when a menu link is clicked (only on small screens)
   $(".menu a").click(function() {
-    // Check the screen width
-    if ($(window).width() <= 426) {
-        $(".menu").hide(1000); // Hide the menu when a link is clicked on small screens
-    }
+      if ($(window).width() <= 426) {
+          $(".menu").hide(1000);
+          // Reset icon to 'fa-bars' after closing the menu
+          $("#menu-icon").removeClass("fa-x").addClass("fa-bars");
+      }
+  });
 });
-});
+
+
