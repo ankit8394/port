@@ -79,7 +79,7 @@ header{
 }
 .profile-img{
     margin-top: 90px;
-    width: 350px;
+    width: 380px;
     height: 400px;
     border-radius: 50%;
     animation: floatImage 4s ease-in-out infinite;
