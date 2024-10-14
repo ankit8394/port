@@ -38,6 +38,8 @@ header{
 }
 #front{
     padding-top: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 .row{
     padding: 20px;
@@ -375,6 +377,11 @@ footer h6{
    #about p {
     font-size: 22px;
     }
+    #front{
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
     .about-box1 {
         height: 300px;
         width: 300px;
