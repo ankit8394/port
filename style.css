@@ -8,6 +8,20 @@
 body{
     background-color: #002954 !important;
 }
+
+.container-fluid {
+    opacity: 0;
+    transform: translateY(40px); /* Elements start slightly down */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Smooth transition */
+}
+
+.container-fluid.show {
+    opacity: 1;
+    transform: translateY(0); /* Move back to original position */
+}
+
+
+
 /*home page*/
 header{
     position: fixed;

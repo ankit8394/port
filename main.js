@@ -53,3 +53,26 @@ $(document).ready(function() {
 });
 
 
+
+document.addEventListener("DOMContentLoaded", () => {
+  const containers = document.querySelectorAll(".container-fluid");
+
+  const observer = new IntersectionObserver(
+      (entries) => {
+          entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                  entry.target.classList.add("show");
+                  observer.unobserve(entry.target); // Stop observing once shown
+              }
+          });
+      },
+      {
+          threshold: 0.1, // Trigger when 10% of the element is visible
+      }
+  );
+
+  containers.forEach((container) => observer.observe(container));
+});
+
+
+
