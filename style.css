@@ -448,6 +448,9 @@ footer h6{
 }
 @media (max-width:426px)
 {
+    #port-f{
+       margin-top: -10px;
+    }
     .port {
         font-size: 30px;
         padding-left: 2px;
