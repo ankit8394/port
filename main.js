@@ -53,7 +53,7 @@ $(document).ready(function() {
 });
 
 
-
+//for animation of content load
 document.addEventListener("DOMContentLoaded", () => {
   const containers = document.querySelectorAll(".container-fluid");
 
@@ -74,5 +74,10 @@ document.addEventListener("DOMContentLoaded", () => {
   containers.forEach((container) => observer.observe(container));
 });
 
-
-
+//for redirect on homepage
+function redirectAfterSubmit() {
+  setTimeout(() => {
+    window.location.href = "https://developer-ankit.netlify.app/";
+  }, 5000); // Delay for user experience (optional)
+  return true; // Continue form submission
+};
