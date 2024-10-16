@@ -75,9 +75,3 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //for redirect on homepage
-function redirectAfterSubmit() {
-  setTimeout(() => {
-    window.location.href = "https://developer-ankit.netlify.app/";
-  }, 5000); // Delay for user experience (optional)
-  return true; // Continue form submission
-};
