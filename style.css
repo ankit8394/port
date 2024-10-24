@@ -12,7 +12,7 @@ body{
 .container-fluid {
     opacity: 0;
     transform: translateY(40px); /* Elements start slightly down */
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Smooth transition */
+    transition: opacity 1.5s ease-out, transform 0.8s ease-out; /* Smooth transition */
 }
 
 .container-fluid.show {
