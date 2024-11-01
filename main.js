@@ -52,26 +52,31 @@ $(document).ready(function() {
   });
 });
 
-
-//for animation of content load
+// main.js
 document.addEventListener("DOMContentLoaded", () => {
-  const containers = document.querySelectorAll(".container-fluid");
+  // Initialize ScrollReveal with basic settings
+  ScrollReveal({
+    distance: "50px",
+    duration: 2000,
+    delay: 200,
+  });
 
-  const observer = new IntersectionObserver(
-      (entries) => {
-          entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                  entry.target.classList.add("show");
-                  observer.unobserve(entry.target); // Stop observing once shown
-              }
-          });
-      },
-      {
-          threshold: 0.1, // Trigger when 10% of the element is visible
-      }
-  );
+  // Reveal elements based on their origin
+  ScrollReveal().reveal(" #name h1, #name h3, #typing-text, .resume", { origin: "left" });
+  ScrollReveal().reveal(".intro, .social-media", { origin: "bottom", interval: 200 });
 
-  containers.forEach((container) => observer.observe(container));
+  ScrollReveal().reveal("#about h1, #about-box2", { origin: "right" });
+  ScrollReveal().reveal(".about-img", { origin: "left" });
+
+  ScrollReveal().reveal("#skills h1", { origin: "top" });
+  ScrollReveal().reveal(".div-img", { origin: "bottom", interval: 100 });
+
+  ScrollReveal().reveal("#projects h1", { origin: "top" });
+  ScrollReveal().reveal(".projects-box", { origin: "bottom", interval: 200 });
+
+  ScrollReveal().reveal(".contact h1", { origin: "top" });
+  ScrollReveal().reveal(".social-media, .contact-form", { origin: "bottom", interval: 200 });
+
+  
 });
 
-//for redirect on homepage

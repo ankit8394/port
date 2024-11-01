@@ -9,18 +9,6 @@ body{
     background-color: #002954 !important;
 }
 
-.container-fluid {
-    opacity: 0;
-    transform: translateY(40px); /* Elements start slightly down */
-    transition: opacity 1.5s ease-out, transform 0.8s ease-out; /* Smooth transition */
-}
-
-.container-fluid.show {
-    opacity: 1;
-    transform: translateY(0); /* Move back to original position */
-}
-
-
 
 /*home page*/
 
@@ -465,9 +453,19 @@ footer h6{
     }
 }
 @media (max-width:426px)
-{
+{   
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #002954;
+        z-index: 500;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
     #port-f{
        margin-top: -10px;
+
     }
     .port {
         font-size: 30px;
@@ -475,7 +473,7 @@ footer h6{
         padding-top: 10px;
     }  
     #mobile{
-        display:initial;
+        display:block;
         margin: 20px;
     }
     .menu {
