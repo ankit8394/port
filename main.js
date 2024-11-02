@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Reveal elements based on their origin
   ScrollReveal().reveal(" #name h1, #name h3, #typing-text, .resume", { origin: "left" });
+  ScrollReveal().reveal("#image",{origin: "bottom"});
   ScrollReveal().reveal(".intro, .social-media", { origin: "bottom", interval: 200 });
 
   ScrollReveal().reveal("#about h1, #about-box2", { origin: "top" });
