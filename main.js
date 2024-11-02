@@ -62,11 +62,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Reveal elements based on their origin
-  ScrollReveal().reveal(" #name h1, #name h3, #typing-text, .resume", { origin: "top" });
+  ScrollReveal().reveal(" #name h1, #name h3, #typing-text, .resume", { origin: "left" });
   ScrollReveal().reveal(".intro, .social-media", { origin: "bottom", interval: 200 });
 
-  ScrollReveal().reveal("#about h1, #about-box2", { origin: "right" });
-  ScrollReveal().reveal(".about-img", { origin: "left" });
+  ScrollReveal().reveal("#about h1, #about-box2", { origin: "top" });
+  ScrollReveal().reveal(".about-img", { origin: "bottom" });
 
   ScrollReveal().reveal("#skills h1", { origin: "top" });
   ScrollReveal().reveal(".div-img", { origin: "bottom", interval: 100 });
