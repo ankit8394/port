@@ -18,7 +18,7 @@ header{
     left: 0;
     width: 100%;
     background: #002954;
-    z-index: 500;
+    z-index: 1000;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .container-fluid{
@@ -454,6 +454,9 @@ footer h6{
 }
 @media (max-width:426px)
 {   
+    nav{
+        max-width: 350px;
+    }
     header{
         position: fixed;
         top: 0;
@@ -464,8 +467,14 @@ footer h6{
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     }
     #port-f{
-       margin-top: -10px;
-
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #002954;
+        z-index: 500;
+       
+       box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     }
     .port {
         font-size: 30px;
@@ -489,7 +498,6 @@ footer h6{
     }
     #front{
         padding-top: 50px;
-       
     }
     #main-2 {
         display: flex;
@@ -588,6 +596,10 @@ footer h6{
     #skills-img {
         justify-content: space-evenly;
         margin-top: 40px;
+    }
+    #mobile{
+        display:block;
+        margin: 20px;
     }
 }
 @media (max-width:2561px) {
