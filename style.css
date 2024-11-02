@@ -487,6 +487,7 @@ footer h6{
     }
     .menu {
         display: none;
+        margin-top: 60px;
         justify-content: flex-end;
     }  
     .menu li {
