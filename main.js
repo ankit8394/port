@@ -66,8 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
   ScrollReveal().reveal("#image",{origin: "bottom"});
   ScrollReveal().reveal(".intro, .social-media", { origin: "bottom", interval: 200 });
 
-  ScrollReveal().reveal("#about h1, #about-box2,header", { origin: "top" });
-  ScrollReveal().reveal(".about-img", { origin: "bottom" });
+  ScrollReveal().reveal(" #about-box2,header", { origin: "top" });
+  ScrollReveal().reveal(".about-img,#about h1", { origin: "bottom" });
 
   ScrollReveal().reveal("#skills h1", { origin: "top" });
   ScrollReveal().reveal(".div-img", { origin: "bottom", interval: 100 });
