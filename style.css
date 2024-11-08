@@ -392,6 +392,12 @@ footer h6{
         margin-left: -60px;
     }
 }
+@media(max-width:892px){
+    .menu li {
+        padding: 0px 10px;
+        padding-top: 12px;
+    }
+}
 @media(max-width:768px)
 {
     .row{
