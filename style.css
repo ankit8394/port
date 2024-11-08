@@ -358,7 +358,10 @@ footer h6{
     align-items: center;
     justify-content: center;
 }
-
+#head-respo{
+    margin: 0;
+    padding: 0;
+}
 
 @media (max-width:1100px)
 {
@@ -480,7 +483,6 @@ footer h6{
     .port {
         font-size: 30px;
         padding-left: 2px;
-        padding-top: 10px;
     }  
     #mobile{
         display:block;
@@ -490,12 +492,13 @@ footer h6{
         display: none;
         margin-top: 60px;
         justify-content: flex-end;
-    }  
+    }
     .menu li {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        padding: 0px 20px;
+        padding-left: 20px;
+        padding-right: 20px;
         padding-top: 10px;
     }
     #front{
@@ -627,5 +630,53 @@ footer h6{
     .menu li {
         padding: 0px 10px;
         padding-top: 12px;
+    }
+    .profile-img {
+        width: 300px;
+        height: 320px;
+    }
+}
+@media (max-width:771px){
+    .profile-img {
+        width: 250px;
+        height: 270px;
+    }
+}
+@media (max-width:734px){
+    .profile-img {
+        width: 250px;
+        height: 270px;
+        margin-left: -30px;
+    }
+}
+@media (max-width:650px){
+    .profile-img {
+        width: 210px;
+        height: 230px;
+    }
+    .menu li {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 15px;
+    }
+    .menu li a {
+        font-size: 20px;
+    }
+}
+@media (max-width:650px){
+    .port {
+        font-size: 40px;
+        padding: 0px 5px;
+    }
+}
+@media (max-width:578px){
+    .port {
+        font-size: 30px;
+        padding: 0px 5px; 
+    }
+    #head-respo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
