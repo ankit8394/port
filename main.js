@@ -1,5 +1,5 @@
 const typingText = document.getElementById('typing-text');
-const sentences = ["Front-End Developer.","Web Developer.","UI/UX Designer."];
+const sentences = ["Front-End Developer.","Web Developer.","UI/UX Developer."];
 let index = 0;
 let currentSentence = 0;
 let isTypingForward = true;
